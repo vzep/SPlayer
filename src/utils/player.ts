@@ -527,7 +527,7 @@ class Player {
           await this.createPlayer(url, autoPlay, seek);
         }
         // 尝试解灰
-        else if (isElectron && type !== "radio" && settingStore.useSongUnlock) {
+        else if (type !== "radio" && settingStore.useSongUnlock) {
           const unlockUrl = await this.getUnlockSongUrl(playSongData);
           if (unlockUrl) {
             statusStore.playUblock = true;
