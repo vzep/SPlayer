@@ -33,6 +33,7 @@ export const songUrl = (
     | "hires"
     | "jyeffect"
     | "sky"
+    | "dolby"
     | "jymaster" = "exhigh",
 ) => {
   return request({
