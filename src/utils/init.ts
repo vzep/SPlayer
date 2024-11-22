@@ -18,7 +18,7 @@ const init = async () => {
   printVersion();
 
   // 用户协议
-  openUserAgreement();
+  // openUserAgreement();
 
   // 事件监听
   initEventListener();
