@@ -277,6 +277,11 @@ const songLevelData = {
     tip: "沉浸式体验，最高 5.1 声道",
     value: "sky",
   },
+  dolby: {
+    label: "杜比全景声 Dolby Audio",
+    tip: "杜比全景声音质需要设备支持",
+    value: "sky",
+  },
 };
 
 // 获取全部输出设备
