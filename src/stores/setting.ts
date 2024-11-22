@@ -51,6 +51,7 @@ interface SettingState {
     | "hires"
     | "jyeffect"
     | "sky"
+    | "dolby"
     | "jymaster";
   playDevice: "default" | string;
   autoPlay: boolean;
