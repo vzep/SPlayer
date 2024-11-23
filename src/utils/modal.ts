@@ -2,7 +2,7 @@ import { h } from "vue";
 import type { CoverType, UpdateInfoType, SettingType, SongType } from "@/types/main";
 import { isLogin } from "./auth";
 import { isArray, isFunction } from "lodash-es";
-import { useDataStore } from "@/stores";
+//import { useDataStore } from "@/stores";
 import router from "@/router";
 import Login from "@/components/Modal/Login/Login.vue";
 import JumpArtist from "@/components/Modal/JumpArtist.vue";
@@ -185,7 +185,7 @@ export const openUpdatePlaylist = (id: number, data: CoverType, func: () => Prom
 
 // 下载歌曲
 export const openDownloadSong = (song: SongType) => {
-  const dataStore = useDataStore();
+  // const dataStore = useDataStore();
   if (!isLogin()) return openUserLogin();
   // 是否可下载
   if (!song) return window.$message.warning("请正确选择歌曲");
