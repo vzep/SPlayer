@@ -1,6 +1,6 @@
 import { useDataStore, useSettingStore, useShortcutStore, useStatusStore } from "@/stores";
 import { useEventListener } from "@vueuse/core";
-import { openUserAgreement } from "@/utils/modal";
+//import { openUserAgreement } from "@/utils/modal";
 import { debounce } from "lodash-es";
 import { isElectron } from "./helper";
 import packageJson from "@/../package.json";
