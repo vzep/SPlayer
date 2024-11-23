@@ -267,20 +267,25 @@ const songLevelData = {
     tip: "环绕声体验，声音听感增强，96kHz/24bit",
     value: "hires",
   },
-  jymaster: {
-    label: "超清母带 Master",
-    tip: "还原音频细节，192kHz/24bit",
-    value: "jymaster",
-  },
   sky: {
     label: "沉浸环绕声 Surround Audio",
     tip: "沉浸式体验，最高 5.1 声道",
     value: "sky",
   },
+  jymaster: {
+    label: "超清母带 Master",
+    tip: "还原音频细节，192kHz/24bit",
+    value: "jymaster",
+  },
+  jyeffect: {
+    label: "立体音效增强",
+    tip: "多层次声音重构，动态声场还原",
+    value: "jyeffect",
+  },
   dolby: {
-    label: "杜比全景声 Dolby Audio",
+    label: "杜比全景声",
     tip: "杜比全景声音质需要设备支持",
-    value: "sky",
+    value: "dolby",
   },
 };
 
